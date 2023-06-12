@@ -1,2 +1,2 @@
-# Food-Website-UI
-Just a repository to brush up my Github and UI skills.
+# Food-Delivery-Website
+Building a food delivery website from scratch (Work in Progress!)
