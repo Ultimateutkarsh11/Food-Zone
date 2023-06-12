@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After Pseudo selectors</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+        color: white;
+    }
+
+    .navigation{
+        font-size: 20px;
+        display: flex;
+    }
+
+    .item{
+        list-style: none;
+        padding: 34px 23px;
+    }
+
+    section{
+        height: 344px;
+        border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        margin: 3px 23px;
+        align-items: center;      /* Ye property Left-Right se center align kardegi */
+        justify-content: center; /* Ye property top-bottom se center align kardegi */
+        /* Line no. 32 & 33: Both are properties of flexbox */
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    p{
+        text-align: center;
+    }
+    
+    section:after{
+        content: "I need to finish CSS as fast as possible, there are lot many things to do :(";
+    }
+
+</style>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Contact Us</li>
+            </ul>
+        </nav>
+        <section>
+            <h1>Welcome to Coding World!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ipsum fugit neque inventore non eaque aut tempora, libero temporibus ratione quia aspernatur odio sunt, illum reprehenderit blanditiis eveniet autem numquam cumque vel id! Excepturi.</p>
+        </section>
+    </header>
+</body>
+</html>
